@@ -8,8 +8,12 @@ public class Test {
      * @param args args
      */
     public static void main(String[] args){
-        Competitor Nick = new Competitor("Nick De Villiers", "Flat 57 Belmont Flats, 76 Old Hawkhill," +
-                "Dundee DD1 4hE");
-        System.out.println(Nick.getName() + ", " + Nick.getAddress());
+//        Competitor Nick = new Competitor("Nick De Villiers", "Flat 57 Belmont Flats, 76 Old Hawkhill," +
+//                "Dundee DD1 4hE");
+//        System.out.println(Nick.getName() + ", " + Nick.getAddress());
+
+    Photographer cunt = new Photographer("Nick De Villiers", "Flat 57 Belmont Flats, " +
+            "76 Old Hawkhill," + "Dundee DD1 4hE", "cars n shit", "did good");
+    cunt.print();
     }
 }
