@@ -7,6 +7,10 @@ public class Competitor {
     private String name;
     private String address;
 
+    public Competitor(){
+
+    }
+
     public Competitor(String name, String address){
         this.name = name;
         this.address = address;
