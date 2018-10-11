@@ -3,8 +3,8 @@ public class Photographer extends Competitor{
     private String entryCategory;
     private String comment;
 
-    public Photographer(String entryCategory, String comment){
-        super();
+    public Photographer(String name, String address, String entryCategory, String comment){
+        super(name, address);
         this.entryCategory = entryCategory;
         this.comment = comment;
     }
@@ -12,7 +12,7 @@ public class Photographer extends Competitor{
     @Override
     public void print(){
         super.print();
-        System.out.println("Category:" + entryCategory);
+        System.out.println("Category: " + entryCategory);
         System.out.println("Comment: " + comment);
     }
 
