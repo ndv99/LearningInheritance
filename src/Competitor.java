@@ -16,6 +16,11 @@ public class Competitor {
         this.address = address;
     }
 
+    public void print(){
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
+    }
+
     /**
      * Accessor for name.
      * @return string - name of competitor.
